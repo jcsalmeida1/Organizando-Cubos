@@ -1,0 +1,199 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0c1b27;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+   
+}
+
+.container > section{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 0px;
+    box-sizing: border-box;
+    width: 200px;
+    min-height: 160px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #153957;
+}
+
+.itemcubo{
+    width: 30px;
+    height: 30px;
+    background-color: #4c7d99;
+    border:node;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.container > .cubo1 {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container > .cubo1 > .itemcubo:nth-child(1){
+    background-color: #7cbfcf;
+}
+.container > .cubo1 > .itemcubo:nth-child(2){
+    background-color: #449fb6;
+}
+.container > .cubo1 > .itemcubo:nth-child(3){
+    background-color: #406ca7;
+}
+.container > .cubo1 > .itemcubo:nth-child(4){
+    background-color: #31588a;
+}
+.container > .cubo2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 0px;
+}
+
+.container > .cubo2 > .itemcubo:nth-child(1){
+    background-color: #7cbfcf;
+}
+.container > .cubo2 > .itemcubo:nth-child(2){
+    background-color: #449fb6;
+}
+.container > .cubo2 > .itemcubo:nth-child(3){
+    background-color: #406ca7;
+}
+.container > .cubo2 > .itemcubo:nth-child(4){
+    background-color: #31588a;
+}
+.container > .cubo3{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.container > .cubo3 > .itemcubo:nth-child(1){
+    background-color: #7cbfcf;
+}
+.container > .cubo3 > .itemcubo:nth-child(2){
+    background-color: #449fb6;
+}
+.container > .cubo3 > .itemcubo:nth-child(3){
+    background-color: #406ca7;
+}
+.container > .cubo3 > .itemcubo:nth-child(4){
+    background-color: #31588a;
+}
+.container > .cubo4{
+    display: flex;
+    
+    
+
+}
+.container > .cubo4 > .itemcubo:nth-child(1){
+    background-color: #7cbfcf;
+}
+.container > .cubo4 > .itemcubo:nth-child(2){
+    background-color: #449fb6;
+}
+.container > .cubo4 > .itemcubo:nth-child(3){
+    background-color: #406ca7;
+}
+.container > .cubo4 > .itemcubo:nth-child(4){
+    background-color: #31588a;
+}
+.container > .cubo5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-end;
+     
+}
+.container > .cubo5 > .itemcubo:nth-child(1){
+    background-color: #7cbfcf;
+}
+.container > .cubo5 > .itemcubo:nth-child(2){
+    background-color: #449fb6;
+}
+.container > .cubo5 > .itemcubo:nth-child(3){
+    background-color: #406ca7;
+}
+.container > .cubo5 > .itemcubo:nth-child(4){
+    background-color: #31588a;
+}
+.container > .cubo6{
+display: flex;
+flex-wrap: nowrap;
+}
+.container > .cubo6 > .itemcubo:nth-child(1){
+    background-color: #7cbfcf;
+}
+.container > .cubo6 > .itemcubo:nth-child(2){
+    background-color: #449fb6;
+}
+.container > .cubo6 > .itemcubo:nth-child(3){
+    background-color: #406ca7;
+}
+.container > .cubo6 > .itemcubo:nth-child(4){
+    background-color: #31588a;
+}
+
+.container > .cubo6 > .itemcubo:nth-child(2){
+    flex-grow: 1;
+}
+
+.container > .cubo7{
+display: flex;
+flex-wrap: nowrap;
+justify-content: flex-start;
+}
+.container > .cubo7 > .itemcubo:nth-child(1){
+    background-color: #7cbfcf;
+}
+.container > .cubo7 > .itemcubo:nth-child(2){
+    background-color: #449fb6;
+}
+.container > .cubo7 > .itemcubo:nth-child(3){
+    background-color: white;
+}
+.container > .cubo7 > .itemcubo:nth-child(4){
+    background-color: #31588a;
+}
+.container > .cubo8{
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    grid-template-rows: repeat(2, 50px);
+    column-gap: 0px;
+    row-gap: 20px;
+    justify-content: start;
+    align-content: start;
+}
+.container > .cubo8 > .itemcubo:nth-child(1){
+    background-color: #7cbfcf;
+}
+.container > .cubo8 > .itemcubo:nth-child(2){
+    background-color: #449fb6;
+}
+.container > .cubo8 > .itemcubo:nth-child(3){
+    background-color: #406ca7;
+}
+.container > .cubo8 > .itemcubo:nth-child(4){
+    background-color: #31588a;
+}
+
+.container > .cubo8 > .itemcubo{
+    width: 50px;
+    height: 50px;
+}
